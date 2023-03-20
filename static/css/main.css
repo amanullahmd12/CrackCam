@@ -1,0 +1,254 @@
+/* -----------------------------------------------------------------------*/
+/*BASIC SETUP*/
+/* -----------------------------------------------------------------------*/
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #f2f0eb; */
+html {
+
+    color:  #FFC300;
+    background-size: 74px 74px;
+    background-position: 0 0,37px 37px;
+    font-family: 'Play', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+body {
+
+  --c1: #FFC300;
+  --c2: #000;
+  --c3: #000;
+  --bg: var(--c3);
+
+
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(45deg, var(--c1) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--c1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--c2) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--c2) 75%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000;
+    display: flex;
+
+}
+.logo{
+    display: flex;
+}
+
+.nav-logo {
+    margin-left: 20px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    color: #FFC300;
+
+}
+.navbar a{
+    text-decoration: none;
+    color:  #FFC300;
+    font-weight: bolder;
+}
+
+
+/*
+Navbar */
+
+
+
+/* -----------------------------------------------------------------------*/
+/*DEFAULT PART*/
+/* -----------------------------------------------------------------------*/
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #FFC400;
+    box-shadow: 0px 2px 4px 0px;
+    margin-top: 2em;
+    margin-bottom: 1em;  
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-preview:hover {
+    border: 5px solid  #FFC300;
+    -webkit-transition: all 0.5s ease;
+     transition: all 0.5s ease; 
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    margin-top: 1rem;
+    /* margin-bottom: 2px; */
+    padding: 12px 28px;
+    background: #FFC300;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+
+}
+
+
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid  #FFC400; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.very_main{
+    margin: auto;
+    text-align: center;
+}
+.very_main h1{
+  font-size: 40px;
+  padding-top: 80px;
+  color:  #FFC300;
+  /* font-family: monospace; */
+    overflow: hidden; 
+    border-right: .15em solid  #FFC300; 
+   white-space: nowrap;   margin: 0 auto; 
+   letter-spacing: .15em; 
+  animation: 
+  typing 3.5s steps(30, end),
+ blink-caret .5s step-end infinite;
+}
+
+
+
+
+
+
+
+/* The typing effect */
+ @keyframes typing {
+   from { width: 0 }
+  to { width: 100% }}
+ /* The typewriter cursor effect */
+@keyframes blink-caret {
+ from, to { border-color: transparent }
+   50% { border-color: #FFC300 } }
+
+.final_word{
+    position: relative;
+    margin-top: 12px;
+}
+.footer{
+    height: 40px;
+    margin-top: 430px;
+    background-color: #fff;
+}
+
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
