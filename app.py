@@ -1,5 +1,3 @@
-
-
 from flask import Flask, render_template, request
 from keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -9,7 +7,6 @@ app = Flask(__name__)
 
 
 dic = {0: 'Negative', 1: 'Positive'}
-
 
 # Image Size
 img_size = 120
