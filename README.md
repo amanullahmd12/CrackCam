@@ -24,3 +24,17 @@ CrackCam is a deep-learning-based web application that is capable of detecting C
  ```
 2. Open the browser and went to the started server.
 3. Now upload the image and see the result.
+4.
+
+
+## Interface
+
+
+<img width="1440" alt="Screenshot 2023-07-11 at 3 03 14 PM" src="https://github.com/amanullahmd12/CrackCam/assets/92320933/da2be66c-6f92-447f-87db-2774d47bce62">
+
+<img width="1440" alt="Screenshot 2023-07-11 at 3 04 34 PM" src="https://github.com/amanullahmd12/CrackCam/assets/92320933/da401839-acef-4b5b-b056-627eb4cbb3ff">
+
+<img width="1440" alt="Screenshot 2023-07-11 at 3 04 55 PM" src="https://github.com/amanullahmd12/CrackCam/assets/92320933/caa00d5d-f952-400a-8ae4-efbe5773faef">
+
+
+
