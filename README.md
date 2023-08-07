@@ -1,14 +1,40 @@
-# CrackCam
+# CrackCam: Surface Crack Detection Web Application 📸🔍
 
-CrackCam is a deep-learning-based web application that is capable of detecting Cracks in the surface by processing the image of that surface. Basically, it is the implementation of the crack detection system.
+Welcome to the GitHub repository of CrackCam, a deep-learning-based web application designed to detect cracks in surfaces by processing images of those surfaces. CrackCam is an efficient implementation of a crack detection system, providing a valuable tool for identifying surface defects and potential structural issues.
 
-## Algorithms Implemented for machine learning model
+## Description
 
-**CNN(Convolutional neural network)**
+CrackCam is a cutting-edge web application that utilizes deep learning algorithms to detect cracks in various surfaces. By processing input images, it identifies and highlights areas with cracks, allowing for swift and accurate assessment of surface integrity. Whether you're a civil engineer inspecting infrastructure or a maintenance professional ensuring safety, CrackCam is here to streamline your crack detection process.
 
-**LSTM(Long short-term memory)**
+## Dataset
 
-## Requirements for Web Application
+The dataset used for training and evaluating CrackCam contains two classes: "Positive" and "Negative." Images labeled as "Positive" contain surface cracks, while images labeled as "Negative" represent crack-free surfaces. The dataset can be accessed from the following link: [CrackCam Dataset](https://data.mendeley.com/datasets/5y9wdsg2zt/2).
+
+## Algorithms Implemented
+
+CrackCam implements the following machine learning models for crack detection:
+- **CNN (Convolutional Neural Network):** CNNs are employed to learn spatial patterns and features from images, enabling accurate crack detection.
+- **LSTM (Long Short-Term Memory):** LSTM models are utilized for sequence-to-sequence learning, useful in certain crack detection scenarios.
+
+## Key Features
+
+- **Web-Based Interface:** CrackCam boasts a user-friendly web interface that allows users to upload images and receive real-time crack detection results.
+- **Efficient Crack Detection:** The deep learning models implemented in CrackCam ensure efficient and reliable detection of cracks in surfaces.
+- **Versatile Use Cases:** CrackCam can be applied to various surfaces, including concrete, metal, wood, and more, making it suitable for diverse industries.
+- **Real-Time Analysis:** Users receive crack detection results instantly, facilitating prompt decision-making and proactive maintenance.
+
+## Technologies Used
+
+CrackCam harnesses the following technologies for its functionality:
+- **Python:** The core programming language used for developing the deep learning models and backend logic.
+- **Flask Framework:** Flask is utilized to create the web application and handle server-side functionalities.
+- **Convolutional Neural Networks (CNN):** CNNs form the backbone of CrackCam's crack detection algorithm.
+- **Long Short-Term Memory (LSTM):** LSTM models are employed for specific crack detection scenarios requiring sequence-to-sequence learning.
+
+
+## Installation and Usage
+Feel free to explore the code, fork the project, and submit pull requests to make CrackCam an even more powerful tool for surface crack detection.
+
 
 - The following python modules must be installed to run the Application.
   - ```flask```
@@ -36,5 +62,10 @@ CrackCam is a deep-learning-based web application that is capable of detecting C
 
 <img width="1440" alt="Screenshot 2023-07-11 at 3 04 55 PM" src="https://github.com/amanullahmd12/CrackCam/assets/92320933/caa00d5d-f952-400a-8ae4-efbe5773faef">
 
+
+
+## Thank You
+
+Thank you for exploring CrackCam - the Surface Crack Detection Web Application. We aim to revolutionize crack detection processes and contribute to improved infrastructure maintenance and safety. Together, let's detect cracks and protect our built environment! 📸🔍
 
 
