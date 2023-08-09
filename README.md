@@ -50,7 +50,7 @@ Feel free to explore the code, fork the project, and submit pull requests to mak
  ```
 2. Open the browser and went to the started server.
 3. Now upload the image and see the result.
-4.
+
 
 
 ## Interface
@@ -66,6 +66,6 @@ Feel free to explore the code, fork the project, and submit pull requests to mak
 
 ## Thank You
 
-Thank you for exploring CrackCam - the Surface Crack Detection Web Application. We aim to revolutionize crack detection processes and contribute to improved infrastructure maintenance and safety. Together, let's detect cracks and protect our built environment! 📸🔍
+Thank you for exploring CrackCam - the Surface Crack Detection Web Application. I aim to revolutionize crack detection processes and contribute to improved infrastructure maintenance and safety. Together, let's detect cracks and protect our built environment! 📸🔍
 
 
